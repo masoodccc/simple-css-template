@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Vazir-FD-WOL';
+    src: url('../fonts/Vazir-FD-WOL.woff');
+}
+
+@font-face {
+    font-family: 'IranNastaliq';
+    src: url('../fonts/IranNastaliq.ttf')   ;
+}
+body {
+    margin: 0;
+    font-family: 'Vazir-FD-WOL';
+   
+}
+
+.main-header {
+    width: 100%;
+    background-color: rgb(44, 26, 135);
+    border: 1px solid black;
+    padding: 8px 16px;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.main-header>div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-header__logo {
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 22px;
+}
+.main-nav {
+    display: inline-block;
+    width: 95%;
+    text-align: right;
+    vertical-align: middle;
+    
+}
+
+.main-nav__items{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-nav__item {
+    display: inline-block;
+    margin:0 16px;
+}
+
+.main-nav__item a {
+    color:aliceblue;
+    text-decoration: none;
+    
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color:aqua;
+}
+
+.main-nav--acount a {
+    background:rgb(34, 135, 198);
+    color:aqua;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.main-nav--acount a:hover,
+.main-nav--acount a:active {
+    color:aqua;
+
+}
+
+.main-footer {
+    background-color: rgba(67, 66, 66, 0.721);
+    color: rgb(59, 11, 135);
+    padding: 32px;
+}
+.main-footer__lists {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.main-footer__list {
+    display: inline-block;
+    
+}
+
+.main-footer__list a {
+    text-decoration: none;
+    color: rgb(249, 249, 246);
+    margin: 0 25px;
+
+}
+
+.main-footer__list a:hover,
+.main-footer__list a:hover {
+    color: aquamarine;
+}

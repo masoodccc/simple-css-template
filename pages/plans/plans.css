@@ -1,0 +1,68 @@
+
+main {
+    padding-top: 32px;
+}
+.mainback {
+    background-image: url('../../images/bg-image.jpg');
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+.plan {
+    width: 60%;
+    border: 2px solid rgb(70, 89, 215);
+    margin: 16px 0;
+    border-left: none;
+    text-align: right;
+    border-radius: 5px;
+    z-index: 0;
+    position: relative;
+}
+.plan a {
+    text-decoration: none;
+    display: block;
+    padding: 25px 5px;
+    color: azure;
+    
+}
+
+.plan__info {
+    background: rgb(130, 130, 208);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid rgb(161, 161, 198);
+    border-radius: 5px;
+    margin: 10px 15px;
+}
+
+.plan__badge {
+    font-size: 11px;
+    top:0;
+    right: 0;
+    margin: 10px;
+    position: absolute;
+    background: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(75, 62, 62);
+}
+.clearfix {
+    clear: both;
+}
+#plus {
+    background: rgb(65, 74, 138);
+}
+#free {
+    background: rgb(156, 164, 213);
+    float: right;
+    border-right: none;
+    border-left: 2px solid rgb(70, 89, 215);
+}
+#premium {
+    background:rgb(100, 100, 139);
+}
